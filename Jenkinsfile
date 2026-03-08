@@ -3,7 +3,7 @@
 pipeline {
     agent any
     environment {
-        DOCKER_REPO = "dataguru97/jenkins-shared-mlops-project"
+        DOCKER_REPO = "sudhanshu97699/demo-jenkins-shared"
     }
     stages {
         stage('Checkout') {
