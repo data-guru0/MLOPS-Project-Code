@@ -3,7 +3,7 @@
 pipeline {
     agent any
     environment {
-        DOCKER_REPO = "sudhanshu97699/jenkins-shared-library"
+        DOCKER_REPO = "sudhanshu97699/jenkins-shared"
     }
     stages {
         stage('Checkout') {
